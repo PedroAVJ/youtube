@@ -1,0 +1,7 @@
+interface:
+  display_name: "YouTube (CLI)"
+  short_description: "Read and edit YouTube playlists through ytx"
+  icon_small: "./assets/youtube-icon.svg"
+  icon_large: "./assets/youtube-icon.svg"
+  brand_color: "#FF0000"
+  default_prompt: "Use $youtube-cli to list, inspect, and edit YouTube playlists through the ytx CLI."

@@ -1,0 +1,21 @@
+{
+  "name": "@pedroavj/youtube",
+  "version": "0.2.7",
+  "private": true,
+  "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAVJ/youtube.git"
+  },
+  "homepage": "https://github.com/PedroAVJ/youtube#readme",
+  "bugs": {
+    "url": "https://github.com/PedroAVJ/youtube/issues"
+  },
+  "bin": {
+    "ytx": "./bin/ytx"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}

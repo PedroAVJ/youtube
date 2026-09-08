@@ -1,0 +1,45 @@
+{
+  "name": "youtube",
+  "version": "0.2.7",
+  "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/youtube",
+  "repository": "https://github.com/PedroAVJ/youtube",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "playlists",
+    "ytx",
+    "youtube-data-api",
+    "music",
+    "media"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube",
+    "shortDescription": "Read and edit YouTube playlists",
+    "longDescription": "List playlists and their contents, add, remove and reorder videos, create and delete playlists, and read liked videos and subscriptions through the ytx CLI over the YouTube Data API v3. Mirrors playlists into SQLite so repeated reads cost zero quota, and tracks quota spend against the 10,000-unit daily cap.",
+    "developerName": "PedroAVJ",
+    "category": "Media",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.youtube.com/",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "List my YouTube playlists with ytx",
+      "Add a video to a playlist with ytx",
+      "Show what is in a playlist with ytx"
+    ],
+    "brandColor": "#FF0000",
+    "composerIcon": "./assets/youtube-icon.svg",
+    "logo": "./assets/youtube-icon.svg",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "youtube",
+  "version": "0.2.7",
+  "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/youtube",
+  "repository": "https://github.com/PedroAVJ/youtube",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "playlists",
+    "ytx",
+    "youtube-data-api",
+    "music",
+    "media"
+  ],
+  "skills": "./skills/"
+}
